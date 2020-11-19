@@ -1,0 +1,87 @@
+header {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  background-color: rgb(27, 88, 88);
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  top: 0;
+  position: fixed;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 25% 25% 25%;
+  margin-top: 150px;
+  margin-bottom: -250px;
+}
+
+.first {
+  display: grid;
+  background-color: darkred;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: 30px;
+  padding: 10%;
+}
+.first:hover {
+  background-color: orangered;
+}
+.second {
+  background-color: greenyellow;
+  grid-row-start: 2;
+  grid-row-gap: 10px;
+}
+body {
+  background-color: rgb(3, 46, 46);
+    margin-bottom: -200px;
+}
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+}
+.gridnav{
+padding:20px;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 20px;
+}
+.gridnav:hover{
+background-color: darkviolet;
+border-style: inset;
+border-radius: 10px;
+}
+h1{
+text-decoration: underline;
+}
+.pics{
+grid-column-start:4;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.pic1{
+grid-column-start:1;
+grid-row-end: 2;
+}
+.footer{
+grid-row-end: 10;
+grid-column-start: 1;
+grid-column-end: 6;
+}

@@ -1,0 +1,38 @@
+header{
+width: 100%;
+background-color: lightblue;
+text-align: center;
+border:50px;
+}
+.navigation{
+display: grid;
+padding:10px;
+grid-row: 1/4;
+grid-template-columns: auto;
+
+}
+.gridnav{
+display: grid;
+padding:10px;
+}
+.main{
+display:grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 50% 50%;
+}
+
+.first{ display:grid; 
+background-color: greenyellow;
+grid-column-start: 1;
+grid-column-end: 6;
+}
+.second{
+background-color: greenyellow;
+grid-row-start: 2;
+grid-row-gap:10px;
+}
+body {
+background-color: darkcyan;
+}
+footer{background-color: gray;
+}
