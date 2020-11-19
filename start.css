@@ -4,10 +4,12 @@ header {
   width: 100%;
   background-color: rgb(27, 88, 88);
   text-align: center;
+  font-family:title;
   color: white;
   border-radius: 20px;
   top: 0;
   position: fixed;
+   font-family: title;
 }
 
 .navigation {
@@ -33,6 +35,7 @@ header {
   grid-row-start: 2;
   grid-row-end: 3;
   text-align: center;
+  font-family:text;
   color: white;
   border-radius: 10px;
   border-style: solid;
@@ -84,4 +87,12 @@ grid-row-end: 2;
 grid-row-end: 10;
 grid-column-start: 1;
 grid-column-end: 6;
+}
+@font-face{
+font-family: Text;
+src:url(ZCOOLQingKeHuangYou-Regular.ttf)
+}
+@font-face{
+font-family: Title;
+src:url(Piedra-Regular.ttf)
 }

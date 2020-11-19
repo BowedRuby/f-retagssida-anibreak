@@ -8,6 +8,7 @@ header {
   border-radius: 20px;
   top: 0;
   position: fixed;
+   font-family: title;
 }
 
 .navigation {
@@ -59,18 +60,20 @@ text-decoration: underline;
 grid-column-start: 1;
 grid-row-start: 1;
 text-align:center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 margin-bottom: -50px;
 border-style: double;
 border-width:5px;
 border-radius:10px;
 margin-top: -20px;
+font-family: text;
 }
 .third{
 grid-column-start: 2;
 grid-row-start: 5;
 text-align: center;
-background-color: lawngreen;
+font-family: text;
+background-color: rgb(67, 149, 170);
 margin-top: -40px;
 border-style: double;
 border-width: 5px;
@@ -91,7 +94,8 @@ grid-row-start: 3;
 grid-column-start: 1;
 grid-row-start: 7;
 text-align:center;
-background-color: lawngreen;
+font-family: text;
+background-color: rgb(67, 149, 170);
 margin-bottom: -35px;
 border-style: double;
 border-width: 5px;
@@ -109,4 +113,12 @@ grid-column-start: 1;
 grid-column-end: 3;
 grid-row-start: 10;
 grid-row-end:11;
+}
+@font-face{
+font-family: Text;
+src:url(ZCOOLQingKeHuangYou-Regular.ttf)
+}
+@font-face{
+font-family: Title;
+src:url(Piedra-Regular.ttf)
 }

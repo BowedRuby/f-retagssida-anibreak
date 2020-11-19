@@ -7,6 +7,7 @@ header {
   color: white;
   border-radius: 20px;
   top: 0;
+  font-family: title;
   position: fixed;
 }
 
@@ -59,19 +60,21 @@ text-decoration: underline;
 grid-column-start: 1;
 grid-row-start: 4;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
 font-size: 30px;
+font-family:text;
 }
 .second{
 grid-column-start: 2;
 grid-row-start: 4;
 text-align:center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width:5px;
+font-family:text;
 border-radius:10px;
 font-size: 30px;
 }
@@ -79,17 +82,19 @@ font-size: 30px;
 grid-column-start: 3;
 grid-row-start: 4;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
+font-family:text;
 font-size: 30px;
 }
 .forth{
 grid-column-start: 4;
 grid-row-start: 4;
 text-align:center;
-background-color: lawngreen;
+font-family:text;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
@@ -99,17 +104,19 @@ font-size: 30px;
 grid-column-start: 5;
 grid-row-start: 4;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
+font-family:text;
 font-size: 30px;
 }
 .six{
 grid-column-start: 1;
 grid-row-start: 8;
 text-align: center;
-background-color: lawngreen;
+font-family:text;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
@@ -119,7 +126,8 @@ font-size: 30px;
 grid-column-start: 2;
 grid-row-start: 8;
 text-align: center;
-background-color: lawngreen;
+font-family:text;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
@@ -129,8 +137,9 @@ font-size: 30px;
 grid-column-start: 3;
 grid-row-start: 8;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
+font-family:text;
 border-width: 5px;
 border-radius: 10px;
 font-size: 30px;
@@ -139,8 +148,9 @@ font-size: 30px;
 grid-column-start: 4;
 grid-row-start: 8;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
+font-family:text;
 border-width: 5px;
 border-radius: 10px;
 font-size: 30px;
@@ -149,8 +159,9 @@ font-size: 30px;
 grid-column-start: 5;
 grid-row-start: 8;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
+font-family:text;
 border-width: 5px;
 border-radius: 10px;
 font-size: 30px;
@@ -207,4 +218,12 @@ grid-column-start: 1;
 grid-column-end:6;
 width:100%;
 margin-top:90px;
+}
+@font-face{
+font-family: Text;
+src:url(ZCOOLQingKeHuangYou-Regular.ttf)
+}
+@font-face{
+font-family: Title;
+src:url(Piedra-Regular.ttf)
 }

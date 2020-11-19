@@ -22,12 +22,12 @@ grid-template-rows: 50% 50%;
 }
 
 .first{ display:grid; 
-background-color: greenyellow;
+background-color: rgb(67, 149, 170);
 grid-column-start: 1;
 grid-column-end: 6;
 }
 .second{
-background-color: greenyellow;
+background-color: rgb(67, 149, 170);
 grid-row-start: 2;
 grid-row-gap:10px;
 }
@@ -35,4 +35,8 @@ body {
 background-color: darkcyan;
 }
 footer{background-color: gray;
+}
+@font-face{
+font-family: Text;
+src:url(ZCOOLQingKeHuangYou-Regular.ttf)
 }

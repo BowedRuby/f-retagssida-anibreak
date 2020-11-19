@@ -7,6 +7,7 @@ header {
   color: white;
   border-radius: 20px;
   top: 0;
+   font-family: title;
   position: fixed;
 }
 
@@ -47,32 +48,35 @@ grid-column-start: 2;
 grid-column-end:5;
 grid-row-start: 1;
 text-align:center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 border-style: double;
 border-width:5px;
 border-radius:10px;
 font-weight: bold;
 font-size: 18px;
+font-family: Text;
 }
 .third{
 grid-column-start: 2;
 grid-column-end:5;
 grid-row-start: 6;
 text-align: center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 margin-top: -35px;
 border-style: double;
 border-width: 5px;
 border-radius: 10px;
 font-weight: bold;
 font-size: 18px;
+font-family:text;
 }
 .forth{
 grid-column-start: 2;
+font-family: text;
 grid-column-end:5;
 grid-row-start: 8;
 text-align:center;
-background-color: lawngreen;
+background-color: rgb(67, 149, 170);
 margin-bottom: -20px;
 border-style: double;
 border-width: 5px;
@@ -85,7 +89,8 @@ grid-column-start: 2;
 grid-column-end:5;
 grid-row-start: 11;
 text-align: center;
-background-color: lawngreen;
+font-family:text;
+background-color: rgb(67, 149, 170);
 margin-bottom: -40px;
 border-style: double;
 border-width: 5px;
@@ -113,4 +118,12 @@ grid-row-start:7;
 .pic3 {
 grid-column-start: 3;
 grid-row-start: 10;
+}
+@font-face{
+font-family: Text;
+src:url(ZCOOLQingKeHuangYou-Regular.ttf)
+}
+@font-face{
+font-family: Title;
+src:url(Piedra-Regular.ttf)
 }
